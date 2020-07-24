@@ -1,13 +1,11 @@
 using UnityEngine;
 
-namespace IGG2D {
-  public class ItemUI : MonoBehaviour {
+public class ItemUI : MonoBehaviour {
 
-    [SerializeField] private ItemType itemType;
+  [SerializeField] private ItemType itemType;
 
-    public ItemType GetItemType() {
-      return this.itemType;
-    }
-
+  public ItemType GetItemType() {
+    return this.itemType;
   }
+
 }
